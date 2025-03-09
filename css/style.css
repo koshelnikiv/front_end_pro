@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 20px 40px;
+}
+
+.input-text {
+  display: block;
+  width: 100%;
+}
