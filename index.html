@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO лист</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        li {
+            padding: 10px;
+            margin-bottom: 5px;
+            background-color: white;
+            align-items: center;
+            border-radius: 5px;
+            list-style-type: disc;
+        }
+
+        .buttonDel {
+            background-color: lightgray;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 3px;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Список завдань</h1>
+
+    <ul id="todoList">
+        <!-- Тут будуть з'являтися завдання -->
+    </ul>
+
+    <input type="text" id="taskInput" placeholder="Додати нове завдання" />
+    <button id="buttonAdd">Додати</button>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
