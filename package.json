@@ -1,0 +1,22 @@
+{
+  "name": "spa-vite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^x.x.x",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "react": "^18.x",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^18.x",
+    "react-router-dom": "^7.6.2"
+  }
+}
