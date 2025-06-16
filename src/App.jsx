@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <div className={dark ? 'dark-theme' : 'light-theme'}>
-      <Header toggleTheme={() => setDark(!dark)} />
+      <Header toggleTheme={() => setDark(!dark)} dark={dark} />
       <ErrorBoundary>
         <Routes>
           <Route path="/" element={<Home />} />
