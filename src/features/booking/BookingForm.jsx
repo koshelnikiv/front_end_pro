@@ -47,8 +47,7 @@ export default function BookingForm() {
       render={({ handleSubmit, submitting }) => (
         <form onSubmit={handleSubmit}>
           <Stack spacing={2}>
-
-            {/* Autocomplete ― лишаємо як було */}
+            { }
             <Field name="destination">
               {({ input, meta }) => (
                 <Autocomplete
@@ -67,15 +66,13 @@ export default function BookingForm() {
                 />
               )}
             </Field>
-
-            {/* Поле дати — БЕЗ Field, bo TextField уже включає Field */}
+            { }
             <TextField
               name="date"
               type="date"
               label="Date"
               InputLabelProps={{ shrink: true }}
             />
-
             <Button variant="contained" type="submit" disabled={submitting}>
               Send
             </Button>
